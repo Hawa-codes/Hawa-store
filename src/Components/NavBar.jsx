@@ -8,9 +8,9 @@ const NavBar = () => {
     <div>
         <NavLink>
             <Link to="/">Home</Link>
-            <Link to="/about-us">About Us</Link>
-            <Link to="/contact">Contact Us</Link>
-            <Link to="/login">Log In</Link>
+            <Link to="/about-us">Shop</Link>
+            <Link to="/contact">About</Link>
+            <Link to="/login">Contact</Link>
         </NavLink>
         <button onClick={() => navigate("/register")}>Register</button>
     </div>

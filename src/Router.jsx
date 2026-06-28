@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/About";
 import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
-import NavBar from "./Components/NavBar";
 import LogIn from "./pages/LogIn";
+import NavBar from "./Components/NavBar";
 
 function Router() {
   return (
