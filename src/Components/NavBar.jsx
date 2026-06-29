@@ -1,19 +1,17 @@
-import { Link, NavLink, useNavigate } from "react-router-dom"
+// import { Link, useNavigate } from "react-router-dom"
+// import logo from '../assets/Frame.png'
+// import user from '../assets/user.svg'
+// import bag from '../assets/bag-2.svg'
+import './Navbar.css'
 
 const NavBar = () => {
 
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
   return (
-    <div>
-        <NavLink>
-            <Link to="/">Home</Link>
-            <Link to="/about-us">Shop</Link>
-            <Link to="/contact">About</Link>
-            <Link to="/login">Contact</Link>
-        </NavLink>
-        <button onClick={() => navigate("/register")}>Register</button>
-    </div>
+    <header className='logo'>
+
+    </header>
   )
 }
 
