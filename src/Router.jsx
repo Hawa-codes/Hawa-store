@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
 import LogIn from "./pages/LogIn";
 import NavBar from "./Components/NavBar";
+import Footer from "./components/Footer";
 
 function Router() {
   return (
@@ -15,6 +16,7 @@ function Router() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<LogIn/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
