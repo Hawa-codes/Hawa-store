@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import AboutUs from "./pages/About";
+import AboutUs from "./pages/Product";
 import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
 import LogIn from "./pages/LogIn";
@@ -12,8 +12,9 @@ function Router() {
       <NavBar/>
       <Routes>
         <Route index element={<Homepage />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<AboutUs />} />
+        <Route path="/services" element={<Contact />} />
+        <Route path="/article" element={<Contact />} />
         <Route path="/login" element={<LogIn/>}/>
       </Routes>
       <Footer/>
