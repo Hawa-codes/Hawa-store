@@ -1,10 +1,10 @@
 
-const AboutUs = () => {
+const Product = () => {
   return (
     <div>
-      This is my About us page
+      This is my product page
     </div>
   )
 }
 
-export default AboutUs
+export default Product

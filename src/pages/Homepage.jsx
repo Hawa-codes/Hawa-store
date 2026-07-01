@@ -6,7 +6,6 @@ const Homepage = () => {
     <div>
       <HeroSection/>
       <Benefits/>
-      This is my Homepage
     </div>
   )
 }
